@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btInstaImagefeedBlock">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="clientID" type="X2">
+			<default value="" />
+		</field>
+		<field name="accessToken" type="X2">
+			<default value="" />
+		</field>
+		<field name="tag" type="X2">
+			<default value="" />
+		</field>
+		<field name="feedType" type="X2">
+			<default value="" />
+		</field>
+		<field name="userID" type="X2">
+			<default value="" />
+		</field>
+		<field name="tinyPhoto" type="I">
+			<unsigned />
+		</field>		
+		<field name="imageAmount" type="I">
+			<unsigned />
+		</field>						
+	</table>
+</schema>

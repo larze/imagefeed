@@ -1,0 +1,36 @@
+/*
+Easy way of clearing divs
+Code is from: 
+http://css-tricks.com/snippets/css/clear-fix/
+-------------------------*/
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.form-horizontal .control-label {
+	text-align: left !important; }
+/*styling*/
+.instagram-container {
+	margin: 10px 0; }
+.insta-cont-inner {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center; }
+.insta-block {
+	display: inline-block;
+	margin: 4px; }
+.instaimg {
+	padding: 2px;
+	margin: 3px;
+	border: 1px solid #CCC;
+	-webkit-box-shadow: 0 6px 4px -4px #CCC;
+    -moz-box-shadow: 0 6px 4px -4px #CCC;
+        box-shadow: 0 6px 4px -4px #CCC; }
